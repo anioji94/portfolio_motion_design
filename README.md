@@ -30,3 +30,22 @@ This is a portfolio website for my videography and motion design
   - IMAGES
     - HERO
     - PROJECT_NAME
+
+
+## Project Class
+Each project will be an object that will conform to the Project Class.
+
+PROJECT NAME
+  - The name of the project
+
+TECH USED
+  - Software that I used to build this project
+
+COLLABORATORS
+  - Artists I worked alongside with
+
+DESCRIPTION
+  - A quick description of the project
+
+DISPLAY
+  - A GIF, WEBM, embed or JPEG of the project

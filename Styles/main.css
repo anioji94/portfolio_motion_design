@@ -9,12 +9,23 @@ nav li{
   padding: 5px;
 }
 
+section {
+  background-color: blueviolet;
+  list-style: none;
+
+}
+
+.project-item {
+  background-color: aqua;
+}
+
 #hero{
   display: flex;
   flex-direction: row-reverse;
   align-items:flex-start;
   justify-content: space-around;
 }
+
 #hero * {
   padding: 5px;
 }
