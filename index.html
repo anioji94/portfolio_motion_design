@@ -23,29 +23,83 @@
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <link rel="stylesheet" href="../Styles/normalize.css">
+    <link rel="stylesheet" href="../Styles/main.css">
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+
+    <header>
+      <nav>
+        <li>
+          <p id="title">Aniruddh Ojha</p>
+        </li>
+        <li>
+          <a href="#hero">home</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#contact">contact</a>
+        </li>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div id="hero-text">
+          <h1 id="hero-title">Hi, I'm Aniruddh</h1>
+          <p id="hero-desc">I'm a motion designer looking to get a Junior position at a creative agency. I really enjoy animating movement and bringing graphics to life. In this photograph you can see me engaging in one of my hobbies - eating pizza. I also made this entire website using a preset from Webflow to whom I pay a monthly fee of £35.99. Worth it, right?!
+            <br><br><br>
+          Just kidding - I made this from scratch
+          </p>
+        </div>
+        <img id="hero-img" src="../Assets/hero_image.jpeg" alt="a picture of me">
+      </section>
+  
+      <section id="reel">
+        <h2>Demo Reel</h2>
+        <iframe id="reel-video" title="vimeo-player" src="https://player.vimeo.com/video/703338636?h=9a420545cc" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+      </section>
+  
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are my projects</p>
+        <ul id>
+          <li>
+            <article class="project-item">
+              <header class="project-title">
+                <h3>Tuxedo Cats always looking dapper</h3>
+              </header>
+              <em>Tech Used: <p class="tech-info"></p></em>
+              <p class="project-description">
+                Use lap as chair russian blue spend six hours per day washing,
+                but still have a crusty butthole so pooping rainbow while flying
+                in a toasted bread costume in space and inspect anything brought
+                into the house, for instantly break out into full speed gallop
+                across the house for no reason knock dish off table head butt
+                cant eat out of my own dish.
+              </p>
+              <footer>
+                <p>
+                  <a href="/tuxedo-cats-always-looking-dapper">See More</a>
+                </p>
+              </footer>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <h3>Credits</h3>
+      <p>Thanks to <a href="https://medium.com/@magyarn/build-a-simple-static-portfolio-site-with-html-css-and-javascript-part-1-3cbc9d12e7b1">this website</a> for teaching me how to design this website</p>
+      <ul>
+        <li>
+          <p>
+            Email: <a href="mailto:ojhaa94@gmail.com">ojhaa94@gmail.com</a>
+          </p>
+        </li>
+      </ul>
+    </footer>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
